@@ -11,7 +11,7 @@ const app = express()
 
 //multer middleware
 
-const storage = multer.diskStorage({
+const storage = multer.diskStorage({kkk
   destination: function(req, file, cb){
     cb(null, "./uploads")
   },
