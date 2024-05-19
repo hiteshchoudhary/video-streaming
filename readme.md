@@ -19,12 +19,13 @@
 
 ## Watch video
 
-Watch video at `chai aur code` youtube channel.
+Watch video at `Pratham Shah` youtube channel.
 
 
 ## Help and community
 
-If you have any questions or need help, please ask in the [Discord community](https://chaicode.com).
+If you have any questions or need help, please ask in the [Discord community].
+Thank you for joining my youtube channel and i hope you all liked it.
 
 
 
