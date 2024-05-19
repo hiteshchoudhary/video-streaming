@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
     cb(null, file.fieldname + "-" + uuidv4() + path.extname(file.originalname))
   }
 })
-
+console.log("My name is Pratham Shah")
 // multer configuration
 const upload = multer({storage: storage})
 
@@ -30,7 +30,7 @@ app.use(
     credentials: true
   })
 )
-
+console.log("How are you?")
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*") // watch it
   res.header(
