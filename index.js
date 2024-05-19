@@ -23,7 +23,7 @@ const storage = multer.diskStorage({kkk
 // multer configuration
 const upload = multer({storage: storage})
 
-
+console.log("Pratham")
 app.use(
   cors({
     origin: ["http://localhost:3000", "http://localhost:5173"],
