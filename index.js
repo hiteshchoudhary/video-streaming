@@ -30,7 +30,7 @@ app.use(
     credentials: true
   })
 )
-
+console.log("How are you?")
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*") // watch it
   res.header(
