@@ -11,7 +11,7 @@ const app = express()
 
 //multer middleware
 
-const storage = multer.diskStorage({
+const storage = multer.diskStorage({kkk
   destination: function(req, file, cb){
     cb(null, "./uploads")
   },
@@ -19,11 +19,11 @@ const storage = multer.diskStorage({
     cb(null, file.fieldname + "-" + uuidv4() + path.extname(file.originalname))
   }
 })
-
+console.log("My name is Pratham Shah")
 // multer configuration
 const upload = multer({storage: storage})
 
-
+console.log("Pratham")
 app.use(
   cors({
     origin: ["http://localhost:3000", "http://localhost:5173"],
